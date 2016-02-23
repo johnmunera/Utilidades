@@ -118,9 +118,10 @@ public class FileEncryption {
 		
     	 FileEncryption secure = new FileEncryption();
     	 
-    	 File encryptedKeyFile;
-		 File publicKeyFile;
-		 File privateKeyFile;
+    	 //Pendientes
+    	 File encryptedKeyFile = new File("C:/logs/prueba.txt");
+		 File publicKeyFile = new File("C:/logs/prueba.txt");
+		 File privateKeyFile = new File("C:/logs/prueba.txt");
 		 
 	     File fileToEncrypt = new File("C:/logs/prueba.txt");
 		 File encryptedFile = new File("C:/logs/prueba.encrypted");
