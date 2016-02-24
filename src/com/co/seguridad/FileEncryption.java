@@ -108,8 +108,7 @@ public class FileEncryption {
     	     CipherInputStream is = new CipherInputStream(new FileInputStream(in), pkCipher);
     	     is.read(aesKey);
     	     aeskeySpec = new SecretKeySpec(aesKey, "AES");
-    	   } 
-      
+       } 
       
        public static void main(String[] args) {
     	 try {
